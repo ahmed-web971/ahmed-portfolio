@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+
+                    <a href="#header">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer & <br>Web Developer</p>
+                <h1>Hi, I am <span>Ahmed</span> <br> From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+    <div class="picture1">
+        <img src="images/pic.jpeg" alt="">
+    </div>
+    <!-- ========================About========================= -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pic2.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi! I am Ahmed, a passionate Web Designer
+                        & Developer from Pakistan.
+                        <br>
+                        I specialize in building modern and
+                        responsive websites with clean code
+                        and creative designs.
+                        <br>
+
+                        I am always eager to learn new
+                        technologies and deliver high-quality
+                        web experiences that make an impact.
+                        <br><br>
+                        Let's build something amazing together!
+                    </p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                            <li><span>Web Development</span><br>Website Development</li>
+
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Website Development at Mehran University Enginering and
+                                Technology </li>
+                            <li><span>2024-25</span><br>Internship at a Software House,Karachi</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>Matriculation</li>
+                            <li><span>2020</span><br>Intermediate</li>
+                            <li><span>2022</span><br>UI/UX Design & Web Development Training at Mehran university</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================Service=============== -->
+
+    <div id="services">
+
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design & Web Development</h2>
+                    <p>I create modern,responsive Websites with clean code and <br> attractive designs that work
+                        perfectly on
+                        all devices,enssuring fast performance and smooth user experience.</p>
+                    <!-- <a href="#">Learn more</a> -->
+
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I design clean and user-friendly interfaces that focus on great user experience.From wireframe to
+                        final designs,I ensure every website easy to navigate,and accessible on all devices.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- =============portflio============= -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titlee">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/mywork1.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Portfolio website</h3>
+                        <p>A modern web project designed with clean UI and user-friendly experience. 
+                            Built
+                            using the latest front-end technologies to ensure performance and accessibility.</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/mywork2.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Pizza restaurant website</h3>
+                        <p>A modern pizza restaurant website featuring a clean layout, easy navigation, and an
+                            attractive
+                            design. Created to provide a smooth and enjoyable online ordering experience.</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/mywork3.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Travel Agency website</h3>
+                        <p>A simple and responsive travel agency website designed to showcase destinations and tour
+                            services. Built with a focus on usability and clarity, and modern web design.</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- ===================contact=================== -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                 <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-at"></i> laghariahmed441@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>03032352905</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/1BgQDTSwRM/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/ahmedlaghari11?igsh=bTRuand0bnV4aWE="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/923032352905"><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Assets/Ahmed_CV.pdf" download="" class="btn btn1">Download CV   </a>
+                </div>
+                 <div class="contact-right">
+                    <form action="https://formspree.io/f/mykqgvdr" method="post">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="" placeholder="You Email Address" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea >
+                            <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                 </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-regular fa-copyright"></i>Designed and Developed by <i class="fa-solid fa-heart"></i> Ahmed.</p>
+        </div>
+     </div>
+
+ <script>
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+
+   function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+   }
+
+    
+
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+</script>
+
+</body>
+
+</html>
